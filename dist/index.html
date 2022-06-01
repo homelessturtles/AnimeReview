@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeReview</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1 class="logo-text">animereview</h1>
+        </div>
+        <div class="sign-in ">
+            <button class="sign-in-btn">sign in</button>
+        </div>
+        <div class="user-display hide-user-display">
+            <img class="prof-pic" src="" alt="">
+            <div class="name-dropdown">
+                <h3 class="display-name"></h3>
+                <img class="drop-icon" src="./assets/drop.svg" alt="">
+            </div>
+            <div class="drop-menu">
+                <button class="sign-out">sign out</button>
+            </div>
+        </div>
+    </div>
+    <div class="movie-display">
+        <div class="left-col">
+            <img src="" alt="" class="movie-img">
+        </div>
+        <div class="right-col">
+            <div class="head">
+                <h1 class="rating"></h1>
+                <h1 class="title"></h1>
+                <h3 class="about"></h3>
+            </div>
+            <div class="details">
+                <p class="date"></p>
+                <p class="director"></p>
+                <p class="genres"></p>
+            </div>
+        </div>
+    </div>
+    <div class="add-review-section">
+       <form class="review-form">
+           <div class="prof-pic-container">
+              <img class="review-prof-pic" src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg" alt=""> 
+           </div>
+            <div class="add-review">
+                <form class="add-review-form">
+                    <textarea class="review-message" rows="3"></textarea>
+                    <div class="btn-cont">
+                        <button class="review-btn" type="submit">leave review</button>
+                    </div>
+                </form>
+            </div>
+        </form>  
+    </div>
+    <div class="comments-section">
+        <div class="comment">
+            <div class="pic-container">
+                <img class="comment-prof-pic" src="https://wallpaperaccess.com/full/4694115.jpg" alt="">
+            </div>
+            <div class="message-container">
+                <h3 class="comment-username">ghibliboy34</h3>
+                <p class="comment-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec arcu eget neque aliquam cursus. Duis ornare nibh dui, in placerat diam mollis non. Vivamus id dui et sem sagittis placerat sit amet in lacus. Pellentesque quam enim, malesuada non dapibus et, auctor ut lorem. Donec volutpat et est lacinia commodo. Sed elementum non dolor eu hendrerit. Morbi sit amet porta tortor, at mollis risus. Integer vitae porta arcu. Proin hendrerit congue dictum. Nunc molestie et metus a dignissim. Vestibulum molestie lacus vitae odio pharetra, vel condimentum orci venenatis. In mattis ligula purus, non suscipit mauris vehicula sit amet. Duis suscipit lacus et velit mattis condimentum. Nullam mi mi, viverra eget imperdiet sit amet, ultrices ut sapien. Sed facilisis augue sit amet dui hendrerit accumsan ac a libero.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

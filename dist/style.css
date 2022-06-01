@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav{
+    background-color: rgb(61, 54, 160);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.nav > .logo {
+    padding-left: 1rem;
+}
+
+.nav > .sign-in {
+    padding-right: 2rem;
+}
+.hide-sign-in{
+    display: none;
+}
+.nav > .sign-in > .sign-in-btn{
+    width: 6rem;
+    height: 3rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.user-display{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+.user-display > .prof-pic{
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+}
+.hide-user-display{
+    display: none
+}
+
+.name-dropdown{
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.name-dropdown > .drop-icon{
+    width: 1rem;
+}
+
+.user-display > .drop-menu > .sign-out {
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movie-display{
+    display: flex;
+    padding: 5rem 3rem;
+    justify-content: center;
+}
+.left-col>img{
+    width: 20rem;
+}
+
+.right-col{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45rem;
+}
+
+.add-review-section{
+    display: flex;
+    justify-content: center;
+}
+
+.review-form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 66rem;
+}
+.prof-pic-container{
+    width: 3rem;
+    height: 100%;
+}
+.prof-pic-container > .review-prof-pic{
+    width: 2.75rem;    
+    height: 2.75rem;
+    border-radius: 50%;
+}
+
+.add-review{
+    display: flex;
+    flex-direction: column;
+}
+.add-review > .review-message{
+    resize: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    width: 60rem;
+}
+.review-message:focus{
+    outline: none;
+}
+
+.btn-cont{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: end;
+}
+.btn-cont > .review-btn{
+    cursor: pointer;
+    border-style: none;
+    height: 2rem;
+    border-radius: 0.25rem; 
+    color: white;
+    background-color: rgb(61, 54, 160);
+    width: 12rem;
+}
+
+.comments-section{
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+
+.comment{
+    display: flex;
+    gap: 1rem;
+    width: 66rem;
+}
+
+.pic-container > .comment-prof-pic{
+    border-radius: 50%;
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+.message-container > .comment-message{
+    padding-top: 0.5rem;
+}
