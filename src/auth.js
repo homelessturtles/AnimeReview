@@ -2,7 +2,7 @@ import {app} from './firebaseConfig.js'
 import {getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut} from 'firebase/auth'
 import { renderUser, unrenderUser } from './app.js';
 
-const auth = getAuth(app)
+export const auth = getAuth(app)
 
 export const signInGoogle = () => {
     const signIn = document.querySelector(".sign-in-btn");
@@ -32,4 +32,5 @@ export const renderListen = () => {
         }
     })
 };
+
 

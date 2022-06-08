@@ -19,6 +19,12 @@
     padding-left: 1rem;
 }
 
+.logo-text{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .nav > .sign-in {
     padding-right: 2rem;
 }
@@ -67,6 +73,37 @@
     cursor: pointer;
 }
 
+.movies-container{
+    padding: 3rem 6rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+.hide-movies-container{
+    display: none;
+}
+
+.movie-preview{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.movie-preview:hover{
+    background-color: rgb(222, 222, 222);
+}
+.hide-movie-container{
+    display: none;
+}
+
+.movie-img-preview{
+    width: 15rem;
+    height: 22rem;
+}
+
 .movie-display{
     display: flex;
     padding: 5rem 3rem;
@@ -87,6 +124,10 @@
 .add-review-section{
     display: flex;
     justify-content: center;
+}
+
+.hide-review-section{
+    display: none;
 }
 
 .review-form{
@@ -158,3 +199,4 @@
 .message-container > .comment-message{
     padding-top: 0.5rem;
 }
+
