@@ -15,5 +15,8 @@
     "firebase-tools": "^11.0.1",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -35,7 +35,6 @@ export const unrenderUser = () => {
 
 const renderMovie = async (titletorender) => {
   const img = document.querySelector(".movie-img");
-  const rating = document.querySelector(".rating");
   const title = document.querySelector(".title");
   const about = document.querySelector(".about");
   const date = document.querySelector(".date");
@@ -46,7 +45,6 @@ const renderMovie = async (titletorender) => {
   const data = await movie.data();
 
   img.src = data.image;
-  rating.innerHTML = `${data.rating}`;
   title.innerHTML = `${data.title}`;
   about.innerHTML = `${data.about}`;
 
